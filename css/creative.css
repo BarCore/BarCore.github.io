@@ -9,11 +9,7 @@ body {
   width: 100%;
 }
 body {
-  : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
-}
-hr {
-  b  b  b  b
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #F05F40;
@@ -66,19 +62,15 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-cserif;
-
-
-
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-   border-color: transparent;
 }
-.navbar-default .n a
-r  fF05F40;
-    fF40;
-  ffffvbar-: #F05F40;
+.navbar-default .navbar-header .navbar-brand {
+  color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -118,13 +110,8 @@ r  fF05F40;
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
-  .nauld {
+  .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
-  }
-  .navbar-defaul 0.3er .navbar-brand:focus {lt   color: white;
-  }
-  .navbar-default .nav > li > a,
-  .na5, 0.7);
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -138,10 +125,9 @@ r  fF05F40;
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
-  .navbar-default.affix { color: #F05F40;
-    font-size: 14px;
-  }
-  .navbar-default.affix 0.05);
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #F05F40;
