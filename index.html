@@ -26,6 +26,24 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <style type="text/css">
+        body.modal-open {
+            overflow: auto;
+        }
+        body.modal-open[style] {
+            padding-right: 0px !important;
+        }
+
+        .modal::-webkit-scrollbar {
+            width: 0 !important; /*removes the scrollbar but still scrollable*/
+        /* reference: http://stackoverflow.com/a/26500272/2259400 */
+        }
+        a{
+            outline: 0 !important;
+        }
+
+    </style>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,6 +77,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-scroll" data-toggle="modal" data-target="#myModal">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -225,6 +246,18 @@ I engage in Photography during my leisure time, both as a hobby and as a form of
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Warning Modals -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+          <h4 class="text-center">Under Construction...</h4>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- jQuery -->
